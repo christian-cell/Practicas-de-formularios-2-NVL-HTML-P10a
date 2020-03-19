@@ -9,13 +9,44 @@
     <body>
         <h1>Practica de cuestionarios html</h1>
         <form method="post" action="Formalario de satifaccion del cliente">
+           <div>
+               <label for="Codigo Postal">Codigo Postal:</label>
+               <input id="Codigo postal" type="number">
+           </div>
+           <div>
+               <label for="nivel de satisfaccion">Nivel de Satisfaccion del 1 al 5 siendo 1 pesima siendo 5 optima</label>
+               <select id="nivel de satisfaccion">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+               </select>
+            </div>
+           <div>
+               <label for="direccion e-mail">Direccion e-mail:</label>
+               <input id="direccion e-mail" type="text">
+           </div>
+           <div>
+               <label for="Puntos positivos del producto">puntos positivos del producto:</label>
+               <texteara id="Puntos positivos del producto"></texteara>
+            </div>
+            
             <div>
-                <label for="nombre">Nombre:</label>
-                <input id="nombre" type="text">
+                 <label for="Puntos negativos del producto">puntos negativos del producto:</label>
+                <texteara id="Puntos negativos del producto"></texteara>
+
             </div>
             <div>
-                <label for="Ape1">Primer apellido:</label>
-                <input id="Ape1" type="text">
+                <label for="Caracteristicas importantes">Caracteristicas importantes para el usuario</label>
+                <select id="caracteristicas">
+                    <option value="RA">Rapidez</option>
+                    <option value="AT">Atencion al cliente</option>
+                    <option value="RP">Resolucion de problemas</option>
+                    <option value="VE">Velocidad en la entrega del producto</option>
+                    <option value="TR">Trato recibido</option>
+                    <option value="ST">Servicio tecnico</option>
+                </select>
             </div>
 
         </form>
